@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>الهين العربي | الموقع الرسمي</title>
+  <meta name="theme-color" content="#0f0f10" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="الهين العربي | الموقع الرسمي" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-anim" aria-hidden="true">
+    <div class="blob b1"></div>
+    <div class="blob b2"></div>
+    <div class="blob b3"></div>
+  </div>
+
+  <!-- ====== NAV ====== -->
+  <header class="nav">
+    <div class="container nav-wrap">
+      <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <img src="icon/icon.png" alt="Hen Al-Arabi" width="80" height="80">
+      </div>
+      </div>
+      <nav class="nav-links">
+        <a class="chip" href="#features">المميزات</a>
+        <a class="chip" href="#download">التنزيل</a>
+        <a class="chip" href="#install">الشرح</a>
+        <a class="chip" href="#changelog">التغييرات</a>
+        <a class="chip" href="#faq">الأسئلة</a>
+      </nav>
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="chip primary" href="#download">تنزيل الإصدار الرسمي</a>
+        <button class="menu-button" id="openMenu" aria-label="القائمة">☰</button>
+      </div>
+    </div>
+    <div class="drawer" id="drawer" aria-hidden="true">
+      <div class="sheet container">
+        <div style="display:flex;justify-content:flex-end;margin-bottom:12px">
+          <button id="closeMenu" class="chip">✕ إغلاق</button>
+        </div>
+        <nav style="display:grid;gap:10px">
+          <a class="chip" href="#features">المميزات</a>
+          <a class="chip" href="#download">التنزيل</a>
+          <a class="chip" href="#install">الشرح</a>
+          <a class="chip" href="#changelog">التغييرات</a>
+          <a class="chip" href="#faq">الأسئلة</a>
+          <a class="chip primary" href="#download">تنزيل الآن</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- ====== HERO ====== -->
+  <section class="hero">
+    <div class="container inner">
+      <div class="reveal">
+        <h2 class="title">الهين العربي – تجربة PS4 معدل، بلغة عربية</h2>
+        <p class="subtitle">
+           الهين العربي هو نسخة مستقلة بالكامل موجهة لجهاز PS4، مبنية و مطورة من الصفر، لا علاقة لها بأي إصدار HEN آخر، و ليست تعريب لإي أصدار آخر. يأتي بواجهة عربية كاملة، مع تحسينات شاملة في الاستقرار و الأداء، و مميزات متقدمة لتجربة استخدام مثالية.
+            </p>
+        <div class="cta">
+          <a class="chip primary" href="#download">تنزيل الآن</a>
+          <a class="chip" href="#install">طريقة التثبيت</a>
+        </div>
+        <div class="glass hero-card" style="margin-top:16px">
+          <div class="meta">آخر تحديث : 1.1.5 · حالة الاصدار : <span style="color:var(--ok)">مستقرة</span></div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FEATURES ====== -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="reveal">أبرز المميزات</h2>
+      <div class="cards">
+        <article class="glass card reveal">
+          <h3>واجهة عربية بالكامل</h3>
+          <p>واجهة اعدادات عربية متكاملة داخل نظام PS4.</p>
+          <br>
+          <br>
+          <div class="tag">تجربة المستخدم</div>
+        </article>
+        <article class="glass card reveal">
+          <h3>مدير التثبيت</h3>
+          <p>تثبيت ملفات PKG الموجودة على سطح جهاز تخزين USB او الموجودة في وحدة التخزين الداخلية في المسار data/hen/.</p>
+          <div class="tag">ملفات PKG</div>
+        </article>
+        <article class="glass card reveal">
+          <h3>حظر تحديثات النظام</h3>
+          <p>حظر تحديثات النظام لتجنب تحديث جهاز PS4 و فقدان الجلبريك.</p>
+          <br>
+          <div class="tag">امان</div>
+        </article>
+        <article class="glass card reveal">
+          <h3>اصلاحات الاستغلال</h3>
+          <p>تفعيل الاصلاحات الضرورية للنظام مما يساعد في استقرار النظام بعد عملية الجلبريك.</p>
+          <div class="tag">اصلاحات</div>
+        </article>
+        <article class="glass card reveal">
+          <h3>تصحيحات NoBD</h3>
+          <p>تصحيحات NoBD (بدون محرك بلوراي) - تسمح بتحديث النظام بدون الحاجة لمحرك بلوراي يعمل.</p>
+          <div class="tag">أداء</div>
+        </article>
+        <article class="glass card reveal">
+          <h3>نظام التبريد الذكي</h3>
+          <p>تفعيل نظام تبريد ذكي يحافظ على درجة حرارة الجهاز عند مستوى أمن</p>
+          <div class="tag">مجتمع</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== DOWNLOAD ====== -->
+  <section id="download" class="section">
+    <div class="container">
+      <h2 class="reveal">قسم التنزيل</h2>
+      <div class="dl-panel">
+        <div class="glass dl-tile reveal">
+          <div>
+            <div class="tag"><span style="color:var(--blue)">الأحدث</span></div>
+            <h3 style="margin:8px 0">الاصدار : 1.1.5</h3>
+            <p class="meta">أحدث إصدار من الهين العربي، مستقر بالكامل، آمن تمامًا، و يأتي مع جميع المميزات المتقدمة و الخصائص المدمجة لتجربة مثالية</p>
+          </div>
+          <div class="dl-actions">
+             <a class="chip primary" href="files/arhen.bin" download>تنزيل BIN مباشر (497 KB)</a>
+             <a class="chip" href="files/arhen.zip" download>تنزيل ZIP مباشر (KB 122)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== INSTALL ====== -->
+  <section id="install" class="section">
+    <div class="container">
+      <h2 class="reveal">طريقة التثبيت</h2>
+
+      <details class="glass reveal" style="margin-top:12px; padding:12px">
+        <summary><strong>طريقة التثبيت للإصدار 9.00</strong></summary>
+        <ol>
+          <li>افتح الرابط التالي من متصفح جهازك:<br>
+              <code>mhd2025.github.io/9arhen</code>
+          </li>
+          <li>انتظر حتى يكتمل تحميل الصفحة بالكامل. بعد ذلك، قم بإيقاف الاتصال بالإنترنت وأعد تشغيل المتصفح.</li>
+          <li>ستبدأ الصفحة بتفعيل الجيلبريك تلقائيًا. لا تغادر المتصفح حتى يظهر إشعار على الجانب الأيسر يفيد بـ: "تم تفعيل الهين العربي".<br>
+              <em>(حتى إذا ظهرت رسالة "تم التفعيل بنجاح" داخل الصفحة، انتظر ظهور الإشعار)</em>
+          </li>
+          <li>بعد ظهور الإشعار، ستتحول الشاشة إلى اللون الأسود لبضع ثوانٍ، ثم يعود الجهاز للعمل. تهانينا، لقد تم تفعيل الهين العربي بنجاح.<br>
+              <em>(ظهور الشاشة السوداء أمر طبيعي ويشير إلى نجاح التفعيل)</em>
+          </li>
+        </ol>
+      </details>
+
+      <details class="glass reveal" style="margin-top:12px; padding:12px">
+        <summary><strong>طريقة التثبيت للإصدار 11.00 (باستخدام الدونجل)</strong></summary>
+        <p>الخطوات التفصيلية لتثبيت الهين العربي على جهازك باستخدام الدونجل : </p>
+        <ol>
+          <li>قم بتنزيل ملف <code>arhen.bin</code> من قسم التنزيل.</li>
+          <li>أعد تسمية الملف من <code>arhen.bin</code> إلى <code>goldhen.bin</code>، حيث أن الدونجل لا يتعرف إلا على هذا الاسم، ثم انسخ الملف إلى فلاش USB.</li>
+          <li>قم بتشغيل جهاز PS4، و ربط الدونجل، ثم قم بتوصيل الفلاش الذي يحتوي على الملف.</li>
+          <li>انتظر حتى يتم تفعيل التعديل تلقائيًا. بعد ذلك، سيظهر إشعار على الشاشة يفيد بنجاح تفعيل الهين العربي. بعدها ستظهر شاشة سوداء لبضع ثواني بعدها سيعود الجهاز للعمل بشكل طبيعي و تهانينا، لقد تم التفعيل و التثبيت بنجاح!</li>
+        </ol>
+        <p><em>ملاحظة 1 : يتم استخدام الفلاش لمرة واحدة فقط لغرض نسخ الملف arhen.bin الى الهارد الداخلي.</em></p>
+        <p><em>ملاحظة 2 : اذا وضعت الملف arhen.bin في الفلاش و اعدت تسميته الى goldhen.bin و لم يقرا الدونجل الملف قم باعادة تسميته الى payload.bin.</em></p>
+        <p><em>ملاحظة 3 : ظهور الشاشة السوداء لبضع ثوانٍ أثناء التفعيل أمر طبيعي ويشير إلى نجاح العملية.</em></p>
+      </details>
+
+      <details class="glass reveal" style="margin-top:12px; padding:12px">
+        <summary><strong>طريقة التثبيت للإصدار 12.02</strong></summary>
+        <ol>
+          <li>قم بتنزيل ملف <code>arhen.bin</code> من قسم التنزيل.<br>
+          </li>
+          <li>قم باعادة تسمية الملف <code>arhen.bin</code> الى payload.bin و قم بنسخه على سطح الفلاش.</li>
+          <li>على جهاز PS4 قم بالدخول الى الاعدادات ثم النظام ثم قم بتفعيل خيار HDCP.<br>
+              <em>(ضروري لتشغيل قرص التعديل)</em>
+          </li>
+          <li>قم بتركيب الفلاش في جهاز PS4 ثم ادخل قرص التعديل و انتظر حتى يتم التفعيل و يظهر اشعار تم تفعيل الهين العربي بعدها ستظهر شاشة سوداء لبضع ثواني بعدها سيعود الجهاز للعمل بشكل طبيعي.<br>
+              <p><em>ملاحظة : ظهور الشاشة السوداء لبضع ثوانٍ أثناء التفعيل أمر طبيعي ويشير إلى نجاح العملية.</em></p>
+          </li>
+        </ol>
+      </details>
+      <details class="glass reveal" style="margin-top:12px; padding:12px">
+        <summary><strong>طريقة تفعيل ميزة اصلاح الوقت و التاريخ</strong></summary>
+        <ol>
+          <li>قم بتفعيل الهين العربي.</li>
+          <li> ادخل إلى قائمة الهين العربي ثم افتح <em>Debug Settings</em>، و اذهب إلى PlayStation Network → NP Environment، و غيّر القيمة إلى <code>sp-int</code>.</li>
+          <li> اذهب إلى Settings → Date and Time → Date and Time Settings → Set Now. سيتم ضبط الوقت تلقائيًا و سيبقى محفوظًا حتى بعد فصل الكهرباء أو إعادة التشغيل، مع ضرورة تفعيل الهين العربي بعد كل إقلاع.</li>
+        </ol>
+      </details>
+    </div>
+  </section>
+
+  <!-- ====== CHANGELOG ====== -->
+  <section id="changelog" class="section">
+    <div class="container">
+      <h2 class="reveal">سجل التغييرات</h2>
+      <article class="glass card reveal">
+        <h3> الإصدار : 1.1.5 </h3>
+        <ul>
+          <li>دمج ميزة اصلاح ساعة النواة داخليا مع الهين العربي</li>
+          <li>اضافة ميزة تثبيت ملفات PKG الموجودة في وحدة التخزين الداخلية في المسار data/hen/</li>
+          <li>تحسين شامل لاستقرار الهين العربي و أداء النظام، مع تعزيز سرعة الاستجابة و اصلاح المشاكل و الاخطاء أثناء التشغيل، و ضمان تجربة سلسة و آمنة للمستخدمين. تم تحسين التوافق مما يضمن تشغيل جميع المميزات بسلاسة و بدون أي مشاكل تقنية.</li>
+          <li>دعم كامل لجميع إصدارات نظام PS4 من 9.00 حتى 12.02، مع ضمان التوافق التام لجميع المميزات و الوظائف، و تحسين الاستقرار و الأداء.</li>
+        </ul>
+        <div class="meta">تاريخ الإصدار : 19 / 08 / 2025</div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ====== FAQ ====== -->
+  <section id="faq" class="section">
+    <div class="container">
+      <h2 class="reveal">الأسئلة الشائعة</h2>
+      <div class="cards">
+        <article class="glass card reveal">
+          <h3>هل الهين العربي مجاني؟</h3>
+          <p>نعم. الهين العربي متاح مجانًا.</p>
+        </article>
+        <article class="glass card reveal">
+          <h3>ما الإصدارات المدعومة؟</h3>
+          <p>الاصدارات المدعومة هي من 9.00 الى 12.02</p>
+        </article>
+        <article class="glass card reveal">
+          <h3>هل يؤثر على أمان الجهاز أو أداؤه؟</h3>
+          <p>لا، الهين العربي آمن تمامًا، يعمل بدون أي مشاكل أو تأثير على اداء جهازك.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SUPPORT / CONTACT ====== -->
+  <section id="support" class="section">
+    <div class="container">
+      <h2 class="reveal">تواصل معنا</h2>
+      <p class="reveal">للتقارير و الملاحظات، يمكنك التواصل معنا عبر البريد الإلكتروني أو من خلال صفحتنا على فيسبوك.</p>
+      <div class="cards">
+        <article class="glass card reveal">
+            <h3>صفحتنا على فيسبوك</h3>
+             <p class="meta">تابعنا للحصول على آخر الأخبار و التحديثات.</p>
+             <a class="chip" href="https://www.facebook.com/profile.php?id=61578351133879" target="_blank" style="display:flex;align-items:center;gap:4px;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M22.675 0h-21.35C.592 0 0 .593 0 1.326v21.348C0 23.407.592 24 1.325 24h11.495v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.716-1.795 1.764v2.313h3.587l-.467 3.622h-3.12V24h6.116c.733 0 1.325-.593 1.325-1.326V1.326C24 .593 23.408 0 22.675 0z"/>
+                  </svg>
+                      فيسبوك
+                  </a>
+        </article>
+        <article class="glass card reveal">
+          <h3>البريد الالكتروني الرسمي</h3>
+          <p class="meta">mahdinet2008@gmail.com</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container" style="display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+      <div>© <span id="year"></span> الهين العربي. جميع الحقوق محفوظة.</div>
+      <div class="meta">برمجة و تطوير : مهدي حسين.</div>
+    </div>
+  </footer>
+
+  <!-- ====== JSON-LD (SEO) ====== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "الهين العربي",
+    "operatingSystem": "PlayStation 4 (Jailbroken)",
+    "applicationCategory": "DeveloperApplication",
+    "offers": {"@type":"Offer","price":"0","priceCurrency":"USD"},
+    "aggregateRating": {"@type":"AggregateRating","ratingValue":"5","reviewCount":"128"},
+    "description": "نسخة عربية مبنية و مطورة من الصفر لخدمة المستخدم العربي حصرا",
+    "softwareVersion": "vX.Y.Z"
+  }
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
